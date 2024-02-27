@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <!--Tittle -->
+    <title>Cursos</title>
+    <!--Link-Icon -->
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <!--Link-CSS -->
+    <link rel="stylesheet" href="../css/curso-exportaciones.css">
+    <!--Link-Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!--Link-sweetalert-2 -->
+    <!--Link-Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Animated-css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="../js/scrollreveal.js"></script>
+</head>
+
+<body>
+    <div class="container-loader" id="container-lod">
+        <div class="loader-flex">
+            <div class="loader">
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+            </div>
+            <h3>Vianper Corporation</h3>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <video src="../img/videoBG-2.mp4" autoplay muted loop id="video"></video>
+        <div class="container-header">
+            <nav class="nav" id="nav">
+                <img src="../img/logo.png" class="logo-vianper-mb" alt="logo-vianper-mb">
+                <div class="nav-container" id="nav_container">
+                    <div class="nav-links">
+                        <li>
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="../pages/agroexportaciones.html">Exportaciones</a>
+                        </li>
+                    </div>
+                    <img src="../img/logo.png" alt="logo-vianper">
+                    <div class="nav-links">
+                        <li>
+                            <a href="#">Cursos</a>
+                        </li>
+                        <li>
+                            <a href="../pages/importaciones.html">Importaciones</a>
+                        </li>
+                    </div>
+                    <hr>
+                    <p>Vianper Corp.</p>
+                    <a href="#footer" class="btn-nav">Contactanos</a>
+                </div>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="toggle" id="menu_burguer">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
+            </nav>
+            <div class="container-hero">
+                <div class="container-text-hero animate__animated animate__fadeInLeft">
+                    <h1>Curso Vivencial <span> <br>de Importaciones</span></h1>
+                </div>
+                <div class="container-form animate__animated animate__fadeInRight">
+                    <form action="" class="form">
+                        <div class="container-text-form">
+                            <h3>Inscribete</h3>
+                            <p>Te llegara una notificación cuando este disponible nuestro curso</p>
+                        </div>
+                        <div class="container-form-into">
+                            <label for="">Nombre</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="container-form-into">
+                            <label for="">Apellidos</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="container-form-into">
+                            <label for="">Correo</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="container-form-into">
+                            <label for="">Celular</label>
+                            <input type="text" maxlength="9" class="form-control">
+                        </div>
+                        <input type="button" value="Enviar Informacion">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!--     <div class="container-alert" style="width: 100%; display: flex; flex-direction: column; gap: 0.35em;">
+        <div class="container-alert-item"
+            style="width: 90%; margin: 0 auto;  display: flex; gap: 0.85em; flex-wrap: wrap;"><b
+                style="color:#19255E; width: 200px; text-align: center;">Sesiones
+                Semanales:</b><span>
+                Sabados y
+                Domingos.
+            </span></div>
+        <div class="container-alert-item"
+            style="width: 90%; margin: 0 auto; display: flex; gap: 0.85em; flex-wrap: wrap;"><b
+                style="color:#19255E; width: 200px;text-align: center;">Horas Academicas:</b><span>
+                Total 92h.
+            </span></div>
+        <div class="container-alert-item"
+            style="width: 90%; margin: 0 auto; display: flex; gap: 0.85em; flex-wrap: wrap;"><b
+                style="color:#19255E; width: 200px;text-align: center;">Metodologia:</b><span
+                style="text-align: center;">
+                100% practico.
+            </span></div>
+        <div class="container-alert-item"
+            style="width: 90%; margin: 0 auto; display: flex; gap: 0.85em; flex-wrap: wrap;"><b
+                style="color:#19255E; width: auto;">11 reuniones Virtuales y una conferencia
+                Presencial</b></div>
+    </div> -->
+
+    <main class="main">
+        <section class="container-principal">
+            <div class="container-content-main">
+                <img src="../img/img-2.png" alt="Imagen principal" class="imagen">
+                <div class="container-texto">
+                    <h1 class="subtitle">Una experiencia unica</h1>
+                    <p class="parrafo">
+                        El primer taller vivencial 100% práctico para aprender a emprender tu negocio
+                        importando exitosamente y generar nuevos ingresos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-beneficios">
+            <div class="title">
+                <h2 class="first-title">BENEFICIOS</h2>
+                <h2 class="second-title">DEL CURSO</h2>
+            </div>
+            <div class="columna border-column">
+                <div class="imagetitle">
+                    <img src="../img/talk.png" alt="Imagen 1">
+                    <h3 class="titulo-imagen">Asesoría personalizada 24h</h3>
+                    <!-- <p class="subtitulo-imagen">Software 100% confiable</p> -->
+                </div>
+                <div class="imagetitle">
+                    <img src="../img/location.png" alt="Imagen 2">
+                    <h3 class="titulo-imagen">Casillero Postal exclusivo <br> en Miami USA.
+                    </h3>
+                    <!-- <p class="subtitulo-imagen">Software 100% confiable que se adapta a las demandas del cliente</p> -->
+                </div>
+                <div class="imagetitle">
+                    <img src="../img/certificate.png" alt="Imagen 3">
+                    <h3 class="titulo-imagen">Certificación</h3>
+                    <!-- <p class="subtitulo-imagen">Software 100% confiable que se adapta a las demandas del cliente</p> -->
+                </div>
+            </div>
+            <div class="columna">
+                <div class="imagetitle">
+                    <img src="../img/notes.png" alt="Imagen 4">
+                    <h3 class="titulo-imagen">Lista +150 proveedores confiables <br> (China, EE.UU., Panamá).</h3>
+                    <!-- <p class="subtitulo-imagen">Software 100% confiable que se adapta a las demandas del cliente</p> -->
+                </div>
+                <div class="imagetitle">
+                    <img src="../img/people.png" alt="Imagen 5">
+                    <h3 class="titulo-imagen">Agentes de compra internacional <br>
+                    </h3>
+                    <!-- <p class="subtitulo-imagen">Software 100% confiable que se adapta a las demandas del cliente</p> -->
+                </div>
+                <div class="imagetitle">
+                    <img src="../img/container.png" alt="Imagen 6">
+                    <h3 class="titulo-imagen">Importaciones grupales</h3>
+                    <!-- <p class="subtitulo-imagen">Software 100% confiable que se adapta a las demandas del cliente</p> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="container-temario">
+            <div class="container-sesions-info">
+                <h1>TEMARIO & CONTENIDO</h1>
+                <a href="#" id="btn-temario">Ver temario</a>
+                <!--                 <div class="container-sesions-info-deep">
+                    <h3><span>Sesiones Semanales:</span> Sabados y Domingos</h3>
+                    <h3><span>Horas Academicas:</span> Total 92h.</h3>
+                    <h3><span>Metodologia:</span> 100% Práctico.</h3>
+                    <h3>11 reuniones Virtuales y una conferencia Presencial.</h3>
+                </div> -->
+            </div>
+            <div class="container-table">
+                <div class="text-up">
+                    <h1>Módulos de Estudio</h1>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>1</h3>
+                        <p>Itroduccion al <br> comercio exterior</p>
+                        <h3>Semana 1</h3>
+                    </div>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>2</h3>
+                        <p>Busqueda de Producto y <br>Proveedores Internacionales</p>
+                        <h3>Semana 2 y 3</h3>
+                    </div>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>3</h3>
+                        <p>Compra y Distribución Física <br> Internacional</p>
+                        <h3>Semana 4 y 5</h3>
+                    </div>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>4</h3>
+                        <p>Costos de Importación</p>
+                        <h3>Semana 6</h3>
+                    </div>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>5</h3>
+                        <p>Legislación Aduanera</p>
+                        <h3>Semana 7</h3>
+                    </div>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>6</h3>
+                        <p>Casos Prácticos</p>
+                        <h3>Semana 8</h3>
+                    </div>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>7</h3>
+                        <p>Emprendimiento y Creación de <br> tu negocio</p>
+                        <h3>Semana 9</h3>
+                    </div>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>8</h3>
+                        <p>Constitución de Empresa</p>
+                        <h3>Semana 10</h3>
+                    </div>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>9</h3>
+                        <p>Marketing y Ventas</p>
+                        <h3>Semana 11</h3>
+                    </div>
+                </div>
+                <div class="item-table">
+                    <div class="item-content-table">
+                        <h3>10</h3>
+                        <p>Visita al Puerto</p>
+                        <h3>Semana 12</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certificado">
+                <h3>Incluye Certificado</h3>
+            </div>
+        </section>
+
+        <section class="container-visits">
+            <div class="container-visits-content">
+                <h3>Visitas Guardadas</h3>
+                <div class="container-visitas-imgs">
+                    <figure>
+                        <img src="../img/paisaje.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../img/paisaje.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../img/paisaje.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../img/paisaje.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../img/paisaje.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="container-text-down">
+                    <h3> + de 100 <span>Alumnos satisfechos!</span></h3>
+                </div>
+            </div>
+        </section>
+        <section class="container-pay">
+            <h3>Metodos de Pago</h3>
+            <div class="container-pay-table">
+                <div class="container-header">
+                    <div class="container-header-table">
+                        <h3>Medio</h3>
+                        <h3>Cuenta de banco</h3>
+                        <h3>Titular</h3>
+                    </div>
+                    <h4>Metodos de pago disponbles</h4>
+                </div>
+                <div class="table-item-pay">
+                    <div class="container-content-item">
+                        <figure><img src="../img/iconIB.png" alt=""></figure>
+                        <div class="text-pay-table">
+                            <p>193-2002192-0-61</p>
+                            <p>CCI :002-192-002002192061-14.</p>
+                        </div>
+
+                        <div class="container-titular">
+                            <p>Vianper Corporation S.A.C</p>
+                        </div>
+                    </div>
+                    <div class="container-content-item">
+                        <figure><img src="../img/iconBCP.png" alt=""></figure>
+                        <div class="text-pay-table">
+                            <p>193-2002192-0-61</p>
+                            <p>CCI-:002-192-002002192061-14.</p>
+                        </div>
+
+                        <div class="container-titular">
+                            <p>Vianper Corporation S.A.C</p>
+                        </div>
+                    </div>
+                    <div class="container-content-item">
+                        <figure><img src="../img/iconYape.png" alt=""></figure>
+                        <div class="text-pay-table">
+                            <p>987 739 589</p>
+                        </div>
+
+                        <div class="container-titular">
+                            <p>Vianper Corporation S.A.C</p>
+                        </div>
+                    </div>
+                    <div class="container-content-item">
+                        <figure><img src="../img/iconPlin.png" alt=""></figure>
+                        <div class="text-pay-table">
+                            <p>987 739 589</p>
+                        </div>
+
+                        <div class="container-titular">
+                            <p>Vianper Corporation S.A.C</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pay-down-zone">
+                <p>¿Ya realizaste tu pago?</p>
+                <a href="#">Enviar Voucher</a>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://wa.link/29va7u" class="icon_wsp animate__animated animate__fadeInRight" target="_blank"><i
+            class="fa-brands fa-whatsapp item_wsp"></i></a>
+    <a href="#header" class="icon-up" id="icon-up"><i class="fa-solid fa-chevron-up"></i></a>
+    <footer class="footer" id="footer">
+        <div class="container-main-footer">
+            <div class="container-text-footer">
+                <h1>Vianper Corporation</h1>
+                <p>Cualquier colsulta o algun tipo de pregunta puede comunicarse con las siguiente redes sociales y sera
+                    antendido de inmediato.</p>
+            </div>
+            <div class="container-links-footer">
+                <a href="#" target="_blank" class="icon-footer">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" target="_blank" class="icon-footer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" target="_blank" class="icon-footer">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" target="_blank" class="icon-footer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <h3>Copyright © 2023 <span>Vianper Corporation</span></h3>
+    </footer>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/curso.js"></script>
+    <!--script-SweetAlert-2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <!--Font-Awesome -->
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <!--script-bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
