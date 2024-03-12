@@ -9,16 +9,19 @@ window.onload = function () {
 const burguer = document.getElementById("menu_burguer")
 const checkbox = document.getElementById("checkbox")
 const nav_container = document.getElementById("nav_container")
+const body = document.querySelector("body")
 
 
 checkbox.addEventListener("change", () => {
     if (checkbox.checked) {
         nav_container.style.transform = "translateX(0%)"
         nav_container.style.opacity = 1
+        body.style.overflow="hidden"
     }
     else {
         nav_container.style.transform = ""
         nav_container.style.opacity = ""
+        body.style.overflow=""
     }
 })
 
