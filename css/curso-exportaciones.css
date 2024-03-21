@@ -352,11 +352,11 @@ body {
 				display: flex;
 				flex-direction: column;
 				gap: 2em;
-				flex: 1 0 320px;
+				flex: 1 0 min(320px, 100%);
 				& h1 {
 					color: var(--color-yellow);
 					font-weight: bold;
-					font-size: clamp(2.2em, 4.5vw, 4em);
+					font-size: clamp(2em, 4.5vw, 4em);
 					margin: 0;
 					& span {
 						color: var(--color-yellow);
@@ -381,7 +381,7 @@ body {
 				}
 			}
 			.container-form {
-				flex: 1 0 350px;
+				flex: 1 0 min(350px, 100%);
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -493,7 +493,7 @@ body {
 
 				.parrafo {
 					text-align: justify;
-					font-size: clamp(0.6em, 3.5vw, 1.1em);
+					font-size: clamp(0.98em, 3.5vw, 1.1em);
 					font-weight: 600;
 					margin-bottom: 0;
 				}
